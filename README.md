@@ -90,7 +90,7 @@ The core idea of our **Optimal Brain Restoration (OBR)**  is to intervene betwee
 
 ##  <a name="core_algorithm"></a> 🎈Core Algorithm
 
-For learning purpose, one may quickly locate the core code of our OBR algo. in [this line]()). Since our OBR is a general technology, other LLMs also potentially apply.
+For learning purpose, one may quickly locate the core code of our OBR algo. in [this line](https://github.com/csguoh/OBR/blob/4ccfd46eb3062fc432408816ece4530e71e8091b/QuaRot/obr_utils.py#L186). Since our OBR is a general technology, other LLMs also potentially apply.
 
 
 
