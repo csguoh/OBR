@@ -7,7 +7,7 @@ Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs
 
 [Hang Guo](https://csguoh.github.io/), [Yawei Li](https://yaweili.bitbucket.io/), [Luca Benini](https://ee.ethz.ch/the-department/people-a-z/person-detail.luca-benini.html)
 
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=cshguo.OBR)
+![visitors](https://visitor-badge.laobi.icu/badge?page_id=csguoh.OBR)
 [![arXiv](https://img.shields.io/badge/arXiv-2509.11177-b31b1b.svg)](http://arxiv.org/abs/2509.11177)
 [![HuggingFace](https://img.shields.io/badge/HuggingFace-OBR-yellow.svg?logo=huggingface)](https://huggingface.co/collections/HangGuo/optimal-brain-resotration-689863c8687d3aeed27f9a96)
 
