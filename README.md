@@ -59,16 +59,15 @@ Recent advances in Large Language Model (LLM) compression, such as quantization 
 - [News](#news)
 - [TODO](#todo)
 - [Pipeline](#pipeline)
-- [Results](#results)
 - [Core Algorithm](#core_algorithm)
 - [Get Started](#get_started)
-- [Citation](#citation)
+- [Citation](#cite)
 
 ## <a name="news"></a> 🆕 News
 
-- **2025-03-30:** arXiv paper available.
-- **2025-04-04:** This repo is released and we have open sourced all our code and weights!
-- 
+- **2025-09-16:** arXiv paper available.
+- **2025-09-16:** This repo is released and we have open sourced all our code and weights!
+
 
 
 ## <a name="todo"></a> ☑️ TODO
@@ -89,14 +88,14 @@ The core idea of our **Optimal Brain Restoration (OBR)**  is to intervene betwee
 
 
 
-## 🎈Core Algorithm
+##  <a name="core_algorithm"></a> 🎈Core Algorithm
 
 For learning purpose, one may quickly locate the core code of our OBR algo. in [this line]()). Since our OBR is a general technology, other LLMs also potentially apply.
 
 
 
 
-## 💪Get Started
+##  <a name="get_started"></a> 💪Get Started
 
 Since our OBR works on rotated LLM weights, we includes existing state-of-the-art rotation scheme including QuaRot, SpinQuant, and FlatQuant. Therefore, it is necessary to download the rotation matrix first before using our OBR.
 
