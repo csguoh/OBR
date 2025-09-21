@@ -191,7 +191,12 @@ For compatibility, we keep the name of  OBR-related args the same in all rotatio
 Please cite us if our work is useful for your research.
 
 ```
-
+@article{guo2025optimal,
+  title={Optimal Brain Restoration for Joint Quantization and Sparsification of LLMs},
+  author={Guo, Hang and Li, Yawei and Benini, Luca},
+  journal={arXiv preprint arXiv:2509.11177},
+  year={2025}
+}
 ```
 
 ## License
