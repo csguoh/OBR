@@ -60,6 +60,7 @@ Recent advances in Large Language Model (LLM) compression, such as quantization 
 - [TODO](#todo)
 - [Pipeline](#pipeline)
 - [Core Algorithm](#core_algorithm)
+- [Environment Setup](#environment_setup)
 - [Get Started](#get_started)
 - [Citation](#cite)
 
@@ -92,6 +93,20 @@ The core idea of our **Optimal Brain Restoration (OBR)**  is to intervene betwee
 
 For learning purpose, one may quickly locate the core code of our OBR algo. in [this line](https://github.com/csguoh/OBR/blob/4ccfd46eb3062fc432408816ece4530e71e8091b/QuaRot/obr_utils.py#L186). Since our OBR is a general technology, other LLMs also potentially apply.
 
+
+##  <a name="environment_setup"></a> 🙌Evironment Setup
+
+```
+conda create -n obr python=3.10
+conda activate obr
+cd ./OBR
+pip install torch torchvision
+pip install -r requirements.txt
+cd ..
+git clone https://github.com/Dao-AILab/fast-hadamard-transform.git
+cd fast-hadamard-transform
+pip install .
+```
 
 
 
