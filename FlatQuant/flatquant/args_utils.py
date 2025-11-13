@@ -64,6 +64,9 @@ def parser_gen():
                         help='Percent of the average Hessian diagonal to use for dampening.')
     parser.add_argument('--act_order', action="store_true", default=False,
                         help='Use act-order in GPTQ.')
+    parser.add_argument('--gptq_mse', action="store_true", default=False,
+                        help='''Use MSE search to find the optimal clipping threshold for weight quantization. 
+                                NOTE: Do not activate while using LWC.''')
 
     # FlatQuant calibration Arguments
     parser.add_argument('--epochs', type=int, default=15, help='Number of training epochs.')
@@ -194,5 +197,6 @@ def create_logger(exp_dir, dist_rank=0, name=''):
     file_handler.setLevel(logging.DEBUG)
     file_handler.setFormatter(logging.Formatter(fmt=fmt, datefmt='%Y-%m-%d %H:%M:%S'))
     logger.addHandler(file_handler)
+
 
     return logger
